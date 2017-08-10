@@ -8,7 +8,7 @@ $session = new USER();
 
 if($_SESSION['user_session']!="")
 {
-	$session->redirect('profil2.php');
+	$session->redirect('read.php');
 }
 
 if(isset($_POST['btn-signup']))

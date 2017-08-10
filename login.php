@@ -15,7 +15,7 @@ if(isset($_POST['btn-login']))
         //$login->redirect("http://localhost/labo-user_2/index91.php?ident={$_SESSION['user_session']}");
         //$login->redirect("evenements.php");
         $user_id=$_SESSION['user_session'];
-        $login->redirect("acceuil.php?ident={$user_id}");
+        $login->redirect("read.php?ident={$user_id}");
     }
     else
     {
