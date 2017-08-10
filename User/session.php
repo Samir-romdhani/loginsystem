@@ -11,5 +11,5 @@
 	{
 		// session no set redirects to login page
 		 $_SESSION['user_session']=0 ;
-		$session->redirect('http://localhost/labo-user_2/index.php');
+		$session->redirect('https://loginsystem-samirromdhani.c9users.io');
 	}

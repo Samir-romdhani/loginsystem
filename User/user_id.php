@@ -34,6 +34,8 @@ $stmt2 = $user->runQuery("SELECT user_id , user_name  FROM _Membres ORDER BY use
 $stmt2->execute();
 $num2 = $stmt2->rowCount();
 
+echo "$num2" ;
+
 /////////////////////////////////////////////////
 
 /////////////////Requete Membres 2/////////////////
